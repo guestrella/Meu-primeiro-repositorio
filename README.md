@@ -136,3 +136,27 @@ __pycache__/
 .streamlit/
 
 .faiss/
+
+
+
+
+Este projeto implementa um chatbot baseado na arquitetura RAG (Retrieval-Augmented Generation), permitindo que o usuário faça perguntas em linguagem natural sobre um manual de panela elétrica armazenado em formato PDF.
+
+O sistema utiliza o conteúdo do PDF como única fonte de conhecimento, evitando respostas fora do contexto do documento.
+
+https://manuais.emondial.com/Manual-PE-43-6X.pdf
+Partir da pagina 11
+
+Como Utilizar
+Abra a aplicação.
+Digite uma pergunta relacionada ao manual da panela.
+O sistema buscará as informações relevantes no PDF.
+A resposta será gerada utilizando apenas o conteúdo encontrado no documento.
+Exemplo de Perguntas
+Qual a capacidade da panela?
+Como realizar a limpeza?
+Quais são as funções disponíveis?
+Qual a tensão recomendada?
+Observação
+
+Caso a informação solicitada não esteja presente no manual, o chatbot responderá informando que não encontrou a resposta no documento
